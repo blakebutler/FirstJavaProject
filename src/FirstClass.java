@@ -41,6 +41,7 @@ public class FirstClass
             //break or continue can be used
         }
         System.out.println("\nDone");
+        System.out.println("Checking the commit in Github");
 
 
     }
