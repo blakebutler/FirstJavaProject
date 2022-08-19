@@ -16,5 +16,15 @@ public class FirstClass
         numCats ++;
 
         System.out.println("Now there are " +numCats +" cats");
+
+        //Loops
+        int a = 0;
+        while (a<10){
+            System.out.print(a + " --> ");
+            a += 2;
+            System.out.println(a);
+        }
+
+
     }
 }
