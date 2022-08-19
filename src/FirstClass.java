@@ -19,10 +19,16 @@ public class FirstClass
 
         //Loops
         int a = 0;
-        while (a<10){
+        while (a<100){
             System.out.print(a + " --> ");
+            if (a == 32){
+                System.out.println("It's 32");
+                //break; //Stops loop
+                continue; //cancels iteration and restarts/continues loop
+            }
             a += 2;
             System.out.println(a);
+
         }
 
 
